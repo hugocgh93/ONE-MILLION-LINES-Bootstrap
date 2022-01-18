@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --Blanc: #ffffff;
+    --Noir: #000000;
+    --Orange: #ff6347;
+    --Gris: #797878;
+    --Grisclair: #d9d7d7;
+    }
+    
+    * {
+        font-family: 'Arvo', serif;
+        font-size: 16px;
+    }
+
+header section {
+    background-image: url(images/hero-image.jpg);
+    background-size: cover;
+}
+
+.btn-primary {
+    background-color: var(--Orange);
+    border: none;
+}
+
+.text-orange {
+    color: var(--Orange);
+}
+
+.separator {
+    border: 1px solid var(--Orange);
+    width: 130px;
+    margin: 20px auto;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: var(--Noir);
+    border-radius: 50%;
+    margin: 60px auto auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle img {
+    filter: invert(100%);
+    width: 57px;
+    height: auto;
+}
+
+.btn-light {
+    background-color: var(--Blanc);
+    border: 1px solid var(--Gris);
+    color: var(--Orange);
+}
+
+footer {
+    background-color:var(--Orange);
+    padding: 150px 0 30px 0;
+}
+
+footer img {
+    width: 80%;
+}
+
+
+@media screen and (min-width: 1200px) {
+    .w-75 {
+        width: 50% !important;
+    }
+
+    footer img {
+        width: auto;
+    }
+    
+}
